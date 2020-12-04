@@ -1,6 +1,6 @@
 #copy and extract thingsboard.jar and thingsboard.yml
 init() {
-    cd put_ui-ngx_here
+    cd put_your_modified_dependencies_here
     rm -rf .keep
     cd ..
 }
@@ -22,7 +22,7 @@ extractFile() {
 
 putFile() {
     #copy jar
-    cp -r put_ui-ngx_here/. thingsboard_extract/BOOT-INF/lib
+    cp -r put_your_modified_dependencies_here/. thingsboard_extract/BOOT-INF/lib
 
     #copy yml
     cp copied_file/thingsboard.yml thingsboard_extract/BOOT-INF/classes

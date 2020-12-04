@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[ ]:
 
 
 import time
@@ -30,22 +30,22 @@ input('Press enter to continue...')
 clear()
 
 
-# In[2]:
+# In[ ]:
 
 
-os.system('./script.sh init')
 time.sleep(0.5)
-print("Make sure you've put your compiled ui-ngx.jar")
+print("Make sure you've put your compiled .jar dependencies")
 time.sleep(0.5)
-print("file to put_ui-ngx_here folder")
+print("file to put_your_modified_dependencies_here folder")
 time.sleep(0.5)
 input('Press enter to continue...')
 
 
-# In[6]:
+# In[ ]:
 
 
 #Get thingsboard.jar and thingsboard.yml
+
 time.sleep(0.5)
 print("Getting thingsboard.jar and thingsboard.yml files")
 

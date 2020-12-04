@@ -1,4 +1,11 @@
 #copy and extract thingsboard.jar and thingsboard.yml
+init() {
+    cd put_ui-ngx_here
+    rm -rf .keep
+    cd ..
+}
+
+
 getFile() {
     mkdir "copied_file"
     cp /etc/thingsboard/conf/thingsboard.yml copied_file

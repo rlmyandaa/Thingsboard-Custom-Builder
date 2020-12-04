@@ -1,5 +1,6 @@
-# Thingsboard Custom Front End Builder
-**Simple tool to help repack thingsboard.jar dependencies files (BOOT-INF/lib).**
+#  Thingsboard Custom Front End Builder
+## **Simple tool to help repack thingsboard.jar dependencies files (BOOT-INF/lib).**
+**Built mainly to update ui-ngx.jar file with a modified version, but basically you could update any files you want that goes belong to BOOT-INF/lib directory, just put in on put_ui-ngx_here folder.**
 
 Built on Python3.
 

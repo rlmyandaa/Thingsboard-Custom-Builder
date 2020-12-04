@@ -6,7 +6,7 @@ Built on Python3.
 
 **To run this program :**
  - **Terminal**
-	 -  Open terminal from this script directory, and execute **python3 ThingsboardCustomFrontEndBuilder.py**
+	 -  Open terminal from this script directory, and execute **python3 ThingsboardCustomBuilder.py**
 
 **Prerequisite** : **nothing?**
 

@@ -2,6 +2,8 @@
 ## **Simple tool to help repack thingsboard.jar dependencies files (BOOT-INF/lib).**
 **Built mainly to update ui-ngx.jar file with a modified version, but basically you could update any files you want that goes belong to BOOT-INF/lib directory, just put in on put_ui-ngx_here folder.**
 
+**Tested for Thingsboard v3.1.1.**
+
 Built on Python3.
 
 **To run this program :**
